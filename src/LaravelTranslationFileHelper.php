@@ -30,9 +30,9 @@ class LaravelTranslationFileHelper implements TranslationFileHelper
     /**
      * @return string
      */
-    public function resourcePath()
+    public function langPath()
     {
-        return resource_path('lang');
+        return base_path('lang');
     }
 
     /**
